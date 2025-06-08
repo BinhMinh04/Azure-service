@@ -1,0 +1,5 @@
+resource_group_name  = "dev_rg"
+storage_account_name = "dev_storage_account"
+container_name       = "dev_tfstate"
+location              = "Asia Southeast"
+key                  = "dev.terraform.tfstate"

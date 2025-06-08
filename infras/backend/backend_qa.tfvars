@@ -1,0 +1,5 @@
+resource_group_name  = "qa_rg"
+storage_account_name = "qa_storage_account"
+container_name       = "qa_tfstate"
+location              = "Asia Southeast"
+key                  = "qa.terraform.tfstate"

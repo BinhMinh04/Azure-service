@@ -1,0 +1,5 @@
+resource_group_name  = "prod_rg"
+storage_account_name = "prod_storage_account"
+container_name       = "prod_tfstate"
+location              = "Asia Southeast"
+key                  = "prod.terraform.tfstate"
