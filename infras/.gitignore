@@ -6,3 +6,4 @@
 *.tfstate.backup
 crash.log
 .terraform.tfstate.lock.info
+.README.md
