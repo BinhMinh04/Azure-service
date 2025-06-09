@@ -12,60 +12,60 @@ This project demonstrates how to implement Infrastructure as Code (IaC) using Te
 
 ```
 📦 TASK 7-Task 8 - Minh Nguyen
-└─ infras
-   ├─ backend
-   │  ├─ backend_resources
-   │  │  ├─ main.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ backend_dev.tfvars
-   │  ├─ backend_prod.tfvars
-   │  ├─ backend_qa.tfvars
-   │  └─ backend.tf
-   ├─ core
-   │  ├─ app_service
-   │  │  ├─ app_service.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ app_service_plan
-   │  │  ├─ app_service_plan.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ key_vault
-   │  │  ├─ key_vault.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ resource_group
-   │  │  ├─ resource_group.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ storage_account
-   │  │  ├─ storage_account.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ storage_container
-   │  │  ├─ storage_container.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  ├─ subnet
-   │  │  ├─ subnet.tf
-   │  │  ├─ output.tf
-   │  │  └─ variables.tf
-   │  └─ vnet
-   │     ├─ vnet.tf
-   │     ├─ output.tf
-   │     └─ variables.tf
-   ├─ module
-   │  └─ azure_vnet
-   │     ├─ main.tf
-   │     ├─ output.tf
-   │     └─ variables.tf
-   ├─ dev.tfvars
-   ├─ qa.tfvars
-   ├─ prod.tfvars
-   ├─ main.tf
-   ├─ provider.tf
-   └─ variables.tf
+└─ └─ infras/
+   ├─ backend/
+   │  ├─ backend_resources/
+   │  │  ├─ main.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ backend_dev.tfvars/
+   │  ├─ backend_prod.tfvars/
+   │  ├─ backend_qa.tfvars/
+   │  └─ backend.tf/
+   ├─ core/
+   │  ├─ app_service/
+   │  │  ├─ app_service.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ app_service_plan/
+   │  │  ├─ app_service_plan.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ key_vault/
+   │  │  ├─ key_vault.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ resource_group/
+   │  │  ├─ resource_group.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ storage_account/
+   │  │  ├─ storage_account.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ storage_container/
+   │  │  ├─ storage_container.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  ├─ subnet/
+   │  │  ├─ subnet.tf/
+   │  │  ├─ output.tf/
+   │  │  └─ variables.tf/
+   │  └─ vnet/
+   │     ├─ vnet.tf/
+   │     ├─ output.tf/
+   │     └─ variables.tf/
+   ├─ module/
+   │  └─ azure_vnet/
+   │     ├─ main.tf/
+   │     ├─ output.tf/
+   │     └─ variables.tf/
+   ├─ dev.tfvars/
+   ├─ qa.tfvars/
+   ├─ prod.tfvars/
+   ├─ main.tf/
+   ├─ provider.tf/
+   └─ variables.tf/
 ```
 
 ---
